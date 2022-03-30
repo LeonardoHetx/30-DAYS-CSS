@@ -28,7 +28,41 @@ li{
   margin: auto;
   transform: rotate(-30deg) skew(25deg);
   transition: 0.4s ease-out;
-  background-color: rgb(0, 0, 0);
+  background: linear-gradient(0, #00000070 0%, #00000070 100%);
+}
+
+ul li:nth-child(1):hover span{
+  background: linear-gradient(0deg, #f20000 0%,#d11515 25%, #ff4545 50%,#d11515 75%,#f20000 100%);
+  background-size: 200% 200%;
+  animation: changeColor 2s linear infinite;
+}
+
+ul li:nth-child(2):hover span{
+  background: linear-gradient(0deg, #0071ac 0%,#0080c5 25%, #0090dd  50%,#0080c5 75%,#0071ac 100%);
+  background-size: 200% 200%;
+  animation: changeColor 2s linear infinite;
+}
+
+ul li:nth-child(3):hover span{
+  background: linear-gradient(0deg, #d73427 0%,#ff4336 25%, #c70d00 50%,#d82417 75%,#d73427 100%);
+  background-size: 200% 200%;
+  animation: changeColor 2s linear infinite;
+}
+
+ul li:nth-child(4):hover span{
+  background: linear-gradient(0deg, #790079 0%,#8f008f 25%,#b100b1 50%,#8f008f 75%,#790079 100%);
+  background-size: 200% 200%;
+  animation: changeColor 2s linear infinite;
+}
+
+ul li:nth-child(5):hover span{
+  background: linear-gradient(0deg, #f09433 0%,#e6683c 15%,#dc2743 25%,#cc2366 35%,#bc1888 50%, #cc2366 65%, #dc2743 75%, #e6683c 85%, #f09433 100%);
+  background-size: 200% 200%;
+  animation: changeColor 2s linear infinite;
+}
+
+ul li:hover span:nth-child(1){
+  background: linear-gradient(0, #81818170 0%, #81818170 100%);
 }
 
 ul li:hover span:nth-child(2){
@@ -64,38 +98,4 @@ img{
   width: 30px;
   margin: 30%;
   transform: translate(-10%, -20%);
-}
-
-ul li:nth-child(1):hover span{
-  background: linear-gradient(0deg, #f20000 0%,#d11515 25%, #ff4545 50%,#d11515 75%,#f20000 100%);
-  background-size: 200% 200%;
-  animation: changeColor 2s linear infinite;
-}
-
-ul li:nth-child(2):hover span{
-  background: linear-gradient(0deg, #0071ac 0%,#0080c5 25%, #0090dd  50%,#0080c5 75%,#0071ac 100%);
-  background-size: 200% 200%;
-  animation: changeColor 2s linear infinite;
-}
-
-ul li:nth-child(3):hover span{
-  background: linear-gradient(0deg, #d73427 0%,#ff4336 25%, #c70d00 50%,#d82417 75%,#d73427 100%);
-  background-size: 200% 200%;
-  animation: changeColor 2s linear infinite;
-}
-
-ul li:nth-child(4):hover span{
-  background: linear-gradient(0deg, #790079 0%,#8f008f 25%,#b100b1 50%,#8f008f 75%,#790079 100%);
-  background-size: 200% 200%;
-  animation: changeColor 2s linear infinite;
-}
-
-ul li:nth-child(5):hover span{
-  background: linear-gradient(0deg, #f09433 0%,#e6683c 15%,#dc2743 25%,#cc2366 35%,#bc1888 50%, #cc2366 65%, #dc2743 75%, #e6683c 85%, #f09433 100%);
-  background-size: 200% 200%;
-  animation: changeColor 2s linear infinite;
-}
-
-ul li:hover span:nth-child(1){
-  background-color: rgba(143, 143, 143, 0.342);
 }
