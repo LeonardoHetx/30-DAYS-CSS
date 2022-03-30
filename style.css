@@ -84,3 +84,7 @@ ul li:nth-child(4):hover span{
 ul li:nth-child(5):hover span{
   background-color: rgb(200,49,89);
 } 
+
+ul li:hover span:nth-child(1){
+  background-color: rgba(143, 143, 143, 0.342);
+}
