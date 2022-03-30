@@ -27,8 +27,8 @@ li{
   left: 0;
   margin: auto;
   transform: rotate(-30deg) skew(25deg);
-  transition: 0.4s ease-out;
   background: linear-gradient(0, #00000070 0%, #00000070 100%);
+  transition: 0.4s ease-out;
 }
 
 ul li:nth-child(1):hover span{
