@@ -11,11 +11,7 @@ div{
 }
 
 .text{
-  position: absolute;
-  top: 28.3%;
-  right: 0;
-  bottom: 0;
-  left: 29%;
+  margin: auto;
   text-align: center;
   line-height: 300px;
   width: 300px;
