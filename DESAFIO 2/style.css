@@ -32,7 +32,8 @@ div{
   height: 300px;
   margin: auto;
   border-radius: 50%;
-  border-top: solid 5px rgb(77, 77, 77);
+  border-top: solid 5px #4E4E4D;
+  border-right: solid 2px #7d0099;
   animation: borderLoading 1s linear infinite;
 }
 
