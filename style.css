@@ -12,7 +12,7 @@ div{
 
 .text{
   position: absolute;
-  top: 28.8%;
+  top: 28.3%;
   right: 0;
   bottom: 0;
   left: 29%;
@@ -23,7 +23,7 @@ div{
   font-size: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #4E4E4D;
-  border: solid 2px rgba(0, 0, 0, 0.03);
+  border: solid 5px rgba(0, 0, 0, 0.03);
   border-radius: 50%;
 }
 
