@@ -3,15 +3,26 @@ body{
 }
 
 div{
-  width: 300px;
-  height: 300px;
-  margin: auto;
-  text-align: center;
-  border-radius: 50%;
-  line-height: 300px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.text{
+  line-height: 1800%;
   font-size: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #4E4E4D;
+  text-align: center;
+}
+
+.line{
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border-radius: 50%;
   border-top: solid 5px rgb(77, 77, 77);
   animation: borderLoading 1s linear infinite;
 }
