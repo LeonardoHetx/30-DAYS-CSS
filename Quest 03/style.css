@@ -5,15 +5,10 @@ body{
   margin: 0;
 }
 
-@keyframes changeColor{
-  from {right: -200vw;}
+@keyframes slide1{
+  from {right: -330vw;}
   to {right: 50vw;}
 }
-
-@keyframes changeColor2{
-
-}
-
 
 #left-side, #right-side{
   height: 100vh;
@@ -38,40 +33,16 @@ body{
   font-family: 'Bebas Neue', sans-serif;
   line-height: 100vh;
   position: absolute;
-  right: -140vw
+  right: -330vw
 }
 
 #text1{ 
-  animation: changeColor 5s linear infinite;
-  color: #8a2be2;
-  text-shadow: 1px 1px #E3E3E3;
+  animation: slide1 10s linear infinite;
+  color: #E3E3E3;
 }
 
 #text2{
-  animation: changeColor 5s linear infinite;
-  color: #E3E3E3;
-  animation-delay: 1s;
-  text-shadow: 1px 1px #8a2be2;
-}
-
-#text1-1, #text2-2{
-  font-size: 200px;
-  font-family: 'Bebas Neue', sans-serif;
-  line-height: 100vh;
-  position: absolute;
-  right: -280vw
-}
-
-#text1-1{
-  animation: changeColor 5s linear infinite;
+  animation: slide1 10s linear infinite;
+  animation-delay: 1.3s;
   color: #8a2be2;
-  text-shadow: 3px 3px #E3E3E3, -3px -3px #E3E3E3;
-}
-
-#text2-2{
-  animation: changeColor 5s linear infinite;
-  color: #E3E3E3;
-  animation-delay: 1s;
-  text-shadow: 3px 3px #8a2be2, -3px -3px #8a2be2;
-  animation-delay: 1s;
 }
