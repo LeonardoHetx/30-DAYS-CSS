@@ -33,18 +33,20 @@ body{
   font-family: 'Bebas Neue', sans-serif;
   line-height: 100vh;
   position: absolute;
-  right: -1150vw
+  right: -1150vw;
 }
 
 #text1{ 
   animation: slide1 10s linear infinite;
   color: #E3E3E3;
+  text-shadow: 4px 4px 4px #E8A2A2;
 }
 
 #text2{
   animation: slide1 10s linear infinite;
   animation-delay: 2.5s;
   color: #8a2be2;
+  text-shadow: 4px 4px 4px #AF71E8;
 }
 
 @media screen and (max-width: 1500px){
