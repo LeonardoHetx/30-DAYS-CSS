@@ -24,37 +24,30 @@ body{
   background-color: transparent;
 }
 
-.btn::before, .btn::after
-{
-    content: "";
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    
-    border-top: 3px solid black;
-    border-left: 3px solid black;
-    border-bottom: 3px solid black;
-    border-right: 0px solid black;
-
-    transition: .4s linear;
+.btn::before, .btn::after{
+  content: '';
+  background-color: #E3E3E3;
+  position: absolute;
+  width: 30px;
+  height: 10px;
+  transform: skewX(45deg);
+  transition: .5s;
 }
 
-.btn::before
-{
-    top: -11px;
-    left: 10%;
-}
-.btn::after
-{
-    bottom: -11px;
-    right: 10%;
-}
-.btn:hover::before
-{
-    left: 80%;
-}
-.btn:hover::after
-{
-    right: 80%;
+.btn::before{
+  bottom: 45px;
+  left: 20px;
 }
 
+.btn::after{
+  top: 45px;
+  right: 20px;
+}
+
+.btn:hover::before{
+  left: 190px;
+}
+
+.btn:hover::after{
+right: 190px;
+}
