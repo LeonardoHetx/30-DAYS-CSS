@@ -6,7 +6,7 @@ body{
 }
 
 @keyframes slide1{
-  from {right: -330vw;}
+  from {right: -150vw;}
   to {right: 50vw;}
 }
 
@@ -33,7 +33,7 @@ body{
   font-family: 'Bebas Neue', sans-serif;
   line-height: 100vh;
   position: absolute;
-  right: -330vw
+  right: -1150vw
 }
 
 #text1{ 
@@ -43,6 +43,59 @@ body{
 
 #text2{
   animation: slide1 10s linear infinite;
-  animation-delay: 1.3s;
+  animation-delay: 2.5s;
   color: #8a2be2;
 }
+
+@media screen and (max-width: 1500px){
+  @keyframes slide1{
+    from {right: -220vw;}
+    to {right: 50vw;}
+  }
+}
+
+@media screen and (max-width: 1000px){
+  @keyframes slide1{
+    from {right: -290vw;}
+    to {right: 50vw;}
+  }
+
+  #text2{
+    animation-delay: 0.5s;
+  }
+}
+
+@media screen and (max-width: 750px){
+  @keyframes slide1{
+    from {right: -440vw;}
+    to {right: 50vw;}
+  }
+
+  #text2{
+    animation-delay: 0.4s;
+  }
+}
+
+@media screen and (max-width: 500px){
+  @keyframes slide1{
+    from {right: -880vw;}
+    to {right: 50vw;}
+  }
+
+  #text2{
+    animation-delay: 0.4s;
+  }
+}
+
+@media screen and (max-width: 250px){
+  @keyframes slide1{
+    from {right: -1150vw;}
+    to {right: 50vw;}
+  }
+}
+
+
+
+
+
+
