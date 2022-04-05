@@ -52,6 +52,10 @@ body{
     from {right: -220vw;}
     to {right: 50vw;}
   }
+
+  #text2{
+    animation-delay: 1.9s;
+  }
 }
 
 @media screen and (max-width: 1000px){
@@ -61,7 +65,7 @@ body{
   }
 
   #text2{
-    animation-delay: 0.5s;
+    animation-delay: 1.5s;
   }
 }
 
@@ -72,7 +76,7 @@ body{
   }
 
   #text2{
-    animation-delay: 0.4s;
+    animation-delay: 1s;
   }
 }
 
@@ -83,7 +87,7 @@ body{
   }
 
   #text2{
-    animation-delay: 0.4s;
+    animation-delay: 0.55s;
   }
 }
 
@@ -91,6 +95,10 @@ body{
   @keyframes slide1{
     from {right: -1150vw;}
     to {right: 50vw;}
+  }
+
+  #text2{
+    animation-delay: 0.4s;
   }
 }
 
