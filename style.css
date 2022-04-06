@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inspiration&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #E3E3E3;
+}
+
+.circle, .circle-inside{
+  background-color: #8a2be2;
+  color: #E3E3E3;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 50%;
+}
+
+.circle{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 35px;
+}
+
+.circle-inside{
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse{
+  from {opacity: 1;}
+  to   {opacity: 0;
+        width: 300px;
+        height: 300px;}
+}
