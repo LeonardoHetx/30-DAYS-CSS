@@ -92,3 +92,15 @@ body{
 .letter:nth-child(12){
   animation-delay: 2.2s;
 }
+
+@media screen and (max-width: 500px) {
+  .letters-list{
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .letters-list{
+    font-size: 40px;
+  }
+}
