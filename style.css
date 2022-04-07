@@ -32,7 +32,8 @@ body{
 @keyframes change-letter {
   from{color: #8400ff;
        text-shadow: 1px 1px 5px #8400ff, 1px 1px 5px #8400ff}
-  to{color: #434343;}
+  to{color: #434343;
+     text-shadow: 1px 1px 5px #8400ff, 1px 1px}
 }
 
 .letter:nth-child(1){
