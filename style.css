@@ -3,13 +3,13 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: #E3E3E3;
+  background-color: #2e2e2e;
 }
 
 .letters-list{
   margin: 0;
   padding: 0;
-  color: #E3E3E3;
+  color: #434343;
   position: absolute;
   top: 0;
   right: 0;
@@ -26,12 +26,13 @@ body{
   float: left;
   width: 8.3vw;
   text-align: center;
-  animation: change-letter 2.2s ease-in-out infinite;
+  animation: change-letter 2s ease-in-out infinite;
 }
 
 @keyframes change-letter {
-  from{color: #8a2be2;}
-  to{color: #E3E3E3;}
+  from{color: #8400ff;
+       text-shadow: 1px 1px 5px #8400ff, 1px 1px 5px #8400ff}
+  to{color: #434343;}
 }
 
 .letter:nth-child(1){
