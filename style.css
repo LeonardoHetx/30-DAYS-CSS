@@ -26,13 +26,13 @@ body{
   float: left;
   width: 8.2vw;
   text-align: center;
-  animation: change-letter 2s ease-in-out infinite;
+  animation: change-letter 1.9s ease-in-out infinite;
 }
 
 @keyframes change-letter {
-  from{color: #8400ff;
+  0%{color: #8400ff;
        text-shadow: 1px 1px 5px #8400ff, 1px 1px 5px #8400ff}
-  to{color: #434343;
+  50%{color: #434343;
      text-shadow: 1px 1px 5px #8400ff, 1px 1px}
 }
 
