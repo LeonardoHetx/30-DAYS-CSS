@@ -24,7 +24,7 @@ body{
 
 .letter{
   float: left;
-  width: 8.3vw;
+  width: 8.2vw;
   text-align: center;
   animation: change-letter 2s ease-in-out infinite;
 }
