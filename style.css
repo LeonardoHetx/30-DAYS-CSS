@@ -5,7 +5,6 @@ body{
 }
 
 .squares-all{
-  border: solid;
   height: 50vmin;
   width: 50vmin;
   position: absolute;
