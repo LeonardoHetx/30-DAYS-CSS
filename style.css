@@ -16,8 +16,8 @@ body{
   width: 70px;
   height: 70px;
   background-color: #8400ff;
-  top: 40%;
-  left: 55%;
+  top: 45%;
+  left: 52%;
   transform: translate(-50%, -50%);
   border-radius: 10%;
   animation: preloader 3s ease-in-out infinite;
@@ -36,8 +36,62 @@ body{
 }
 
 @keyframes preloader{
-  0%{top: 40%; left: 55%;}
-  25%{top: 55%; left: 55%;}
-  50%{top: 55%; left: 40%;}
-  75%{top: 40%; left: 40%;}
+  0%{top: 45vh; left: 52vw;}
+  25%{top: 60vh; left: 52vw;}
+  50%{top: 60vh; left: 45vw;}
+  75%{top: 45vh; left: 45vw;}
+}
+
+@media screen and (max-width: 1200px){
+  .square{
+    left: 55vw;
+  }
+
+  @keyframes preloader{
+    0%{top: 45vh; left: 55vw;}
+    25%{top: 60vh; left: 55vw;}
+    50%{top: 60vh; left: 45vw;}
+    75%{top: 45vh; left: 45vw;}
+  }
+}
+
+@media screen and (max-width: 950px){
+  .square{
+    left: 60vw;
+  }
+
+  @keyframes preloader{
+    0%{top: 45vh; left: 60vw;}
+    25%{top: 55vh; left: 60vw;}
+    50%{top: 55vh; left: 45vw;}
+    75%{top: 45vh; left: 45vw;}
+  }
+}
+
+@media screen and (max-width: 600px){
+  .square{
+    top: 45vh;
+    left: 62vw;
+  }
+
+  @keyframes preloader{
+    0%{top: 45vh; left: 62vw;}
+    25%{top: 58vh; left: 62vw;}
+    50%{top: 58vh; left: 38vw;}
+    75%{top: 45vh; left: 38vw;}
+  }
+}
+
+@media screen and (max-width: 300px){
+  .square{
+    top: 45vh;
+    left: 65vw;
+  }
+
+  @keyframes preloader{
+    0%{top: 45vh; left: 65vw;}
+    25%{top: 60vh; left: 65vw;}
+    50%{top: 60vh; left: 35vw;}
+    75%{top: 45vh; left: 35vw;}
+  }
 }
