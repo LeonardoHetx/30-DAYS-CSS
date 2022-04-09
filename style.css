@@ -27,7 +27,7 @@ body{
   background-color: #8400ff;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -25%) rotate(45deg);
+  transform: translate(-50%, -35%) rotate(45deg);
 }
 
 .heart:before, .heart:after{
