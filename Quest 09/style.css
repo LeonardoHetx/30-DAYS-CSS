@@ -11,7 +11,7 @@ body{
 .pendulum{
   border-top: 10px solid #8400ff;
   border-radius: 5%;
-  background: rgb(46,46,46);
+  background: #2e2e2e;
   box-sizing: border-box;
   width: 390px;
   height: 349px;

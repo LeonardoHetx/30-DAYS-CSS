@@ -8,7 +8,6 @@ body{
 
 .circle, .circle-inside{
   background-color: #8a2be2;
-  color: #E3E3E3;
   position: absolute;
   width: 200px;
   height: 200px;
@@ -22,7 +21,10 @@ body{
 
 .circle{
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 35px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: #E3E3E3;
+
 }
 
 .circle-inside{

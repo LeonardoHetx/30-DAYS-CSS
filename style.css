@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inspiration&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #2e2e2e;
+}
+
+a{
+  width: 200px;
+  height: 50px;
+  display: block;
+  box-sizing: border-box;
+  font-size: 40px;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px;
+  color: #2e2e2e;
+  background-color: #E3E3E3;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 5px 5px 1px #c382ff;
+  transition: .5s;
+  box-sizing: border-box;
+}
+
+a:hover{
+  background-color: #8400ff;
+  border: 1px solid;
+}

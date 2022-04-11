@@ -19,7 +19,7 @@ body{
 }
 
 #left-side{
-  background-color: #E3E3E3;
+  background-color: #2e2e2e;
   left: 0;
 }
 
@@ -38,7 +38,7 @@ body{
 
 #text1{ 
   animation: slide1 10s linear infinite;
-  color: #E3E3E3;
+  color: #2e2e2e;
   text-shadow: 4px 4px 4px #E8A2A2;
 }
 
@@ -46,7 +46,7 @@ body{
   animation: slide1 10s linear infinite;
   animation-delay: 2.5s;
   color: #8a2be2;
-  text-shadow: 4px 4px 4px #AF71E8;
+  text-shadow: 4px 4px 1px #009dff;
 }
 
 @media screen and (max-width: 1500px){
@@ -103,9 +103,3 @@ body{
     animation-delay: 0.4s;
   }
 }
-
-
-
-
-
-
