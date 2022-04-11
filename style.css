@@ -21,12 +21,13 @@ a{
   background-color: #E3E3E3;
   margin: auto;
   margin-top: 20px;
-  box-shadow: 5px 5px 1px #c382ff;
+  box-shadow: 5px 5px 1px  #8400ff;
   transition: .5s;
   box-sizing: border-box;
 }
 
 a:hover{
   background-color: #8400ff;
+  color: white;
   border: 1px solid;
 }
