@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #2e2e2e;
+}
+
+.text{
+  height: 100px;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 4vw;
+  color: #8400ff;
+  text-align: center;
+  line-height: 100vh;
+  letter-spacing: 10px;
+  transition: .5s;
+}
+
+.text:after {
+  content: '';
+  animation: switch-img 3s linear infinite;
+  margin-left: 10px;
+  position: absolute;
+  top: -0.8%;
+  text-shadow: 3px 3px 1px #8400ff;
+}
+
+.text:hover{
+  letter-spacing: 0;
+}
+
+@keyframes switch-img {
+  0%{content: '🕹️';}
+  50%{content: '⏱️';}
+  100%{content: '📕';}
+}
