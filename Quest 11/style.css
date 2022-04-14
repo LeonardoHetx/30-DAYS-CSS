@@ -5,21 +5,21 @@ body{
 }
 
 .btn{
-  width: 400px;
-  height: 100px;
+  width: 50vh;
+  height: 15vh;
   position: absolute;
   top: 50%;
   left: 50%;
+  background: none;
   transform: translate(-50%, -50%);
-  border: 4px solid #8400ff;
-  box-sizing: border-box;
+  border: 2px solid #8400ff;
   color: #8400ff;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 30px;
+  font-size: 3vh;
   text-align: center;
   text-transform: uppercase;
   line-height: 100px;
-  letter-spacing: 5px;
+  letter-spacing: 7px;
   cursor: pointer;
   overflow: hidden;
 }
@@ -31,16 +31,19 @@ body{
 .btn:before{
   content: '';
   width: 100%;
-  height: 0;
+  height: 0%;
   position: absolute;
   top: 0;
   left: 0;
   background-color: #8400ff;
   border-radius: 0 0 50% 50%;
-  transition: .7s;
-  z-index: 1;
+  z-index: -1;
 }
 
 .btn:hover:before{
   height: 200%;
+}
+
+.btn, .btn:before{
+  transition: .5s;
 }
