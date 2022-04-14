@@ -1,3 +1,8 @@
+*::selection{
+  background: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -5,8 +10,8 @@ body{
 }
 
 .btn{
-  width: 50vh;
-  height: 15vh;
+  width: 50vmin;
+  height: 15vmin;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -18,7 +23,7 @@ body{
   font-size: 3vh;
   text-align: center;
   text-transform: uppercase;
-  line-height: 15vh;
+  line-height: 15vmin;
   letter-spacing: 7px;
   cursor: pointer;
   overflow: hidden;
