@@ -22,7 +22,7 @@ body{
   font-size: 3vmin;
   text-align: center;
   text-transform: uppercase;
-  line-height: 15vmin;
+  line-height: 100%;
   letter-spacing: 7px;
   cursor: pointer;
   overflow: hidden;
