@@ -14,7 +14,7 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
-  background: none;
+  background: transparent;
   transform: translate(-50%, -50%);
   border: 2px solid #8400ff;
   color: #8400ff;
@@ -25,16 +25,19 @@ body{
   line-height: 15vmin;
   letter-spacing: 7px;
   cursor: pointer;
+  /* background-color: #8400ff; */
   overflow: hidden;
 }
 
 .btn:hover{
   color: #2e2e2e;
+  background-color: #8400ff;
+
 }
 
 .btn:before{
   content: '';
-  width: 100%;
+  width: 50vmin;
   height: 0%;
   position: absolute;
   top: 0;
