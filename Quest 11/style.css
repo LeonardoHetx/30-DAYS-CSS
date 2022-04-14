@@ -3,6 +3,10 @@
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -20,7 +24,7 @@ body{
   border: 2px solid #8400ff;
   color: #8400ff;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 3vh;
+  font-size: 3vmin;
   text-align: center;
   text-transform: uppercase;
   line-height: 15vmin;
