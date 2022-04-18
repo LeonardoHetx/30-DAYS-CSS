@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #2e2e2e;;
+}
+
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #8400ff83;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.text::before{
+  content: 'LEONARDOHETX';
+  position: absolute;
+  color: #8400ff;
+  width: 0%;
+  overflow: hidden;
+  text-shadow: 0 0 5px #8400ff;
+  transition: .7s;
+}
+
+.text:hover::before{
+  width: 100%;
+}
