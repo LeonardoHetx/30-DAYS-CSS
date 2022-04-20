@@ -8,14 +8,18 @@ body{
 }
 
 .text{
-  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 20%;
+  transform: translate(-50%, -50%);
   font-family: 'Press Start 2P', sans-serif;
   font-size: 4vw;
   color: #8400ff;
   text-align: center;
-  line-height: 100vh;
-  letter-spacing: 10px;
+  line-height: 20vh;
   transition: .5s;
+  border: solid;
 }
 
 .text:after {
@@ -28,11 +32,17 @@ body{
 }
 
 .text:hover{
-  letter-spacing: 0;
+  letter-spacing: 10px;
+  animation: rotation 3s linear infinite;
 }
 
 @keyframes switch-img {
   0%{content: '🕹️';}
   50%{content: '⏱️';}
   100%{content: '📕';}
+}
+
+@keyframes rotation {
+  25%{transform: translate(-50%, -50%) rotate(10deg);}
+  75%{transform: translate(-50%, -50%) rotate(-10deg);}
 }
