@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inspiration&display=swap');
+
+body{
+  margin: 0;
+  background-color: #2e2e2e;;
+}
+
+.text{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20vmin;
+  text-align: center;
+  line-height: 100vh;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, #790079 0%,#8f008f 25%,#ff5e00 50%,#8f008f 75%,#790079 100%);
+  background-position: center;
+  background-size: 50% 50%;
+  animation: bgSlide 10s linear infinite;
+}
+
+@keyframes bgSlide {
+  to {background-position: 250% 50%}
+}
+
