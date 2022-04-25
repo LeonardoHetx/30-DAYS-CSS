@@ -6,12 +6,6 @@ body{
   background-color: #2e2e2e;
 }
 
-.return{
-  position: absolute;
-  width: 60px;
-  height: 60px;
-}
-
 .letters-list{
   margin: 0;
   padding: 0;

@@ -4,12 +4,6 @@ body{
   padding: 0;
 }
 
-.return{
-  position: absolute;
-  width: 60px;
-  height: 60px;
-}
-
 .squares-all{
   height: 50vmin;
   width: 50vmin;
