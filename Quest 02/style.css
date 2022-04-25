@@ -1,13 +1,14 @@
 body{
   background-color: #E3E3E3;
+  padding: 0;
+  margin: 0;
 }
 
 div{
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .text{
@@ -26,7 +27,6 @@ div{
 .line{
   width: 300px;
   height: 300px;
-  margin: auto;
   border-radius: 50%;
   border-top: solid 5px #4E4E4D;
   border-right: solid 2px #7d0099;
@@ -36,10 +36,10 @@ div{
 @keyframes borderLoading{
     0%
     {
-        transform: rotate(0deg);
+        transform: translate(-50%, -50%) rotate(0deg);
     }
     100%
     {
-        transform: rotate(360deg);
+        transform: translate(-50%, -50%) rotate(360deg);
     }
 }
