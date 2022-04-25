@@ -4,6 +4,12 @@ body{
   background-color: #2e2e2e;;
 }
 
+.return{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+}
+
 .text{
   position: absolute;
   top: 50%;

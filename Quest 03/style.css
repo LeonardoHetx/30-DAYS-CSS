@@ -5,6 +5,12 @@ body{
   margin: 0;
 }
 
+.return{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+}
+
 @keyframes slide1{
   from {right: -150vw;}
   to {right: 50vw;}
