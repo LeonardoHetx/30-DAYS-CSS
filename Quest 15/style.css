@@ -1,4 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inspiration&display=swap');
+
 body{
   margin: 0;
   padding: 0;
+  background-color: #E3E3E3;
+}
+
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 10vw;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #8400ff;
+  text-shadow: 5px 25px 7px #00000020;
+  animation: swing 5s ease infinite;
+  transition: 1s;
+}
+
+.text:hover{
+  letter-spacing: 2vw;
+}
+
+@keyframes swing {
+  0% {transform: translate(-50%, -50%) rotate(-10deg);}
+  50% {transform: translate(-50%, -50%) rotate(10deg);}
+  100% {transform: translate(-50%, -50%) rotate(-10deg);}
 }
