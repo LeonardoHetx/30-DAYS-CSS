@@ -5,7 +5,7 @@ body{
   background: linear-gradient(90deg, rgba(227,227,227,1) 50%, rgba(227,227,227,0.49093140674238445) 50%);
   margin: 0;
   padding: 0;
-  
+  overflow-x: hidden;
 }
 
 .pendulum{
