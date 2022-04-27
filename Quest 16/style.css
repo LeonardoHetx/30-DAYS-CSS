@@ -23,7 +23,7 @@ body{
 }
 
 .btn::before{
-  content: 'Hover';
+  content: 'Hover Effect';
   position: absolute;
   top: 0;
   left: 0;
@@ -31,27 +31,31 @@ body{
   height: 0;
   color: #E3E3E3;
   transform: scale(1.01);
+  font-size: 2vw;
   background-color: #8400ff;
   overflow: hidden;
-  transition: 1s;
+  transition: 1s 1s;
 }
 
 .btn:hover::before{
   height: 100%;
+  transition: 1s;
 }
 
-/* .btn::after{
-  content: 'nsei';
+.btn::after{
+  content: 'LeonardoHetx';
   position: absolute;
-  top: 100%;
   left: 0;
+  bottom: 0;
   width: 40vw;
-  height: 10px;
-  background-color: #797979;
+  height: 0;
+  background-color: #E3E3E3;
   overflow: hidden;
   transition: 1s;
 }
 
 .btn:hover::after{
+  transition-delay: 1s;
   height: 100%;
-} */
+}
+
