@@ -22,23 +22,25 @@ body{
   transition: 1s;
 }
 
-/* .btn::before{
+.btn::before{
   content: 'Hover';
   position: absolute;
   top: 0;
   left: 0;
   width: 40vw;
   height: 0;
-  background-color: #2e2e2e;
+  color: #E3E3E3;
+  transform: scale(1.01);
+  background-color: #8400ff;
   overflow: hidden;
   transition: 1s;
 }
 
 .btn:hover::before{
   height: 100%;
-} */
+}
 
-.btn::after{
+/* .btn::after{
   content: 'nsei';
   position: absolute;
   top: 100%;
@@ -52,4 +54,4 @@ body{
 
 .btn:hover::after{
   height: 100%;
-}
+} */

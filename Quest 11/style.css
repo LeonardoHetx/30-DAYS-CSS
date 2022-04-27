@@ -30,7 +30,6 @@ body{
 
 .btn:hover{
   color: #2e2e2e;
-  background-color: #8400ff;
 
 }
 
@@ -48,8 +47,9 @@ body{
 
 .btn:hover::before{
   height: 200%;
+  transform: scale(1.01);
 }
 
 .btn, .btn::before{
-  transition: .5s;
+  transition: 1s;
 }
