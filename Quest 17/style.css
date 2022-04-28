@@ -12,9 +12,8 @@ body{
   align-items: center;
   width: 100vw;
   height: 100vh;
-  transform: rotateX(-20deg) rotateY(-10deg);
   transform-style: preserve-3d;
-  animation: rotate 7s linear infinite;
+  animation: rotate 5s linear infinite;
 }
 
 .face{
@@ -51,15 +50,5 @@ body{
 }
 
 @keyframes rotate {
-  from {
-    transform: rotateX(-20deg) rotateY(-10deg);
-  }
-
-  50% {
-    transform: rotateX(20deg) rotateY(320deg);
-  }
-
-  to {
-    transform: rotateX(-20deg) rotateY(-20deg);
-  }
+  0%{transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);}
 }
