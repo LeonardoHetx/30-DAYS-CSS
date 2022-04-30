@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+
 body{
   margin: 0;
   padding: 0;
@@ -5,13 +7,22 @@ body{
 }
 
 .container{
-  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
   justify-content: center;
   align-content: center;
-  width: 100vw;
-  height: 100vh;
+  list-style-type: none;
 }
 
-.text{
-  background-color: antiquewhite;
+.container-list{
+  border: solid;
+  font-family:  sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 100vh;
+  letter-spacing: 2vw;
+  text-align: center;
+  background-color: rgb(255, 145, 0);
 }
