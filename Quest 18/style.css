@@ -11,6 +11,10 @@ body{
   align-items: center;
 }
 
+@keyframes shadows {
+  50%{color: #2e2e2e;}
+}
+
 ul{
   margin: 0;
   padding: 0;
@@ -32,6 +36,7 @@ li{
   transition: 2s;
   text-shadow: 0 0 6px rgb(132, 0, 255);
   padding: 0 1% 0 1%;
+  animation: shadows 5s ease infinite;
 }
 
 ul li:nth-child(2){
