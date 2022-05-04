@@ -31,7 +31,7 @@ ul:hover li{
 }
 
 li{
-  font-size: 7vmin;
+  font-size: 7vw;
   font-weight: 600;
   transition: 2s;
   text-shadow: 0 0 6px #8400ff;
