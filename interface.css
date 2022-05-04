@@ -7,15 +7,6 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.return{
-  margin: 1%;
-  width: 40px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
 body::-webkit-scrollbar
 {
 	width: 10px;
@@ -24,4 +15,13 @@ body::-webkit-scrollbar
 body::-webkit-scrollbar-thumb
 {
 	background-color: #E3E3E3;
+}
+
+.return{
+  margin: 1%;
+  width: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
