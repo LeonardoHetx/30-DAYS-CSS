@@ -34,7 +34,7 @@ li{
   font-size: 7vw;
   font-weight: 600;
   transition: 2s;
-  text-shadow: 0 0 6px #8400ff;
+  text-shadow: 0 0 0.5rem #8400ff;
   padding: 0 1% 0 1%;
   animation: shadows 5s ease infinite;
 }
