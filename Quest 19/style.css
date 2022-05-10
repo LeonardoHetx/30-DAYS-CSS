@@ -29,6 +29,10 @@ body{
   top: 50%;
   left: 50%;
   border-radius: 50%;
+  
+}
+
+.particle1{
   animation: rainbowAndMove 5s linear infinite;
 }
 
@@ -56,6 +60,10 @@ body{
   box-shadow: 0 0 4rem #ff0000;
 }
 
+.particle2{
+  animation: 5s rainbowAndMove 1s ease-in-out infinite;
+}
+
 .particle2:before{
   content: '';
   width: 4rem;
@@ -80,6 +88,10 @@ body{
   box-shadow: 0 0 4rem #ff0000;
 }
 
+.particle3{
+  animation: 7s rainbowAndMove .5s ease-in-out infinite;
+}
+
 .particle3:before{
   content: '';
   width: 4rem;
@@ -99,6 +111,34 @@ body{
   position: absolute;
   top: -990%;
   left: -890%;
+  border-radius: 50%;
+  background-color: #ff0000;
+  box-shadow: 0 0 4rem #ff0000;
+}
+
+.particle4{
+  animation: 4s rainbowAndMove .5s linear infinite;
+}
+
+.particle4:before{
+  content: '';
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  top: 190%;
+  left: 690%;
+  border-radius: 50%;
+  background-color: #ff0000;
+  box-shadow: 0 0 4rem #ff0000;
+}
+
+.particle4:after{
+  content: '';
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  top: -190%;
+  left: -690%;
   border-radius: 50%;
   background-color: #ff0000;
   box-shadow: 0 0 4rem #ff0000;
