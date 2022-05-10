@@ -6,14 +6,19 @@ body{
   margin: 0;
   padding: 0;
   background-color: #2e2e2e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
 }
 
-@keyframes rainbowAndMove {
-  0%
+@keyframes colorChange
+{
+    0%
     {
         filter: hue-rotate(0deg);
-        transform: rotate(0deg);
     }
     100%
     {
@@ -22,124 +27,84 @@ body{
     }
 }
 
-.particles{
-  width: 4rem;
-  height: 4rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  border-radius: 50%;
-  
+@keyframes moving {
+  to{transform: rotate(360deg);}
 }
 
-.particle1{
-  animation: rainbowAndMove 5s linear infinite;
+@keyframes reverseMoving {
+ to {transform: rotate(-360deg);}
 }
 
-.particle1:before{
-  content: '';
-  width: 4rem;
-  height: 4rem;
-  position: absolute;
-  top: 290%;
-  left: 190%;
-  border-radius: 50%;
-  background-color: #ff0000;
-  box-shadow: 0 0 4rem #ff0000;
+.particles
+{
+    position: relative;
+    min-width: 750px;
+    height: 750px;
+    margin: -150px;
+    transform-origin: right;
+    animation: colorChange 5s linear infinite;
 }
 
-.particle1:after{
-  content: '';
-  width: 4rem;
-  height: 4rem;
-  position: absolute;
-  top: -290%;
-  left: -190%;
-  border-radius: 50%;
-  background-color: #ff0000;
-  box-shadow: 0 0 4rem #ff0000;
+.particles:nth-child(even)
+{
+    transform-origin: left;
 }
 
-.particle2{
-  animation: 5s rainbowAndMove 1s ease-in-out infinite;
+.particles span
+{
+    position: absolute;
+    top: calc(80px * var(--i));
+    left: calc(80px * var(--i));
+    bottom: calc(80px * var(--i));
+    right: calc(80px * var(--i));
 }
-
-.particle2:before{
-  content: '';
-  width: 4rem;
-  height: 4rem;
-  position: absolute;
-  top: 690%;
-  left: 590%;
-  border-radius: 50%;
-  background-color: #ff0000;
-  box-shadow: 0 0 4rem #ff0000;
+.particles span:before 
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -8px;
+    width: 15px;
+    height: 15px;
+    background: #f00;
+    border-radius: 50%;
 }
-
-.particle2:after{
-  content: '';
-  width: 4rem;
-  height: 4rem;
-  position: absolute;
-  top: -690%;
-  left: -590%;
-  border-radius: 50%;
-  background-color: #ff0000;
-  box-shadow: 0 0 4rem #ff0000;
+.particles span:nth-child(3n + 1):before
+{
+    background: rgba(134,255,0,1);
+    box-shadow: 0 0 20px rgba(134,255,0,1),
+                0 0 40px rgba(134,255,0,1),
+                0 0 60px rgba(134,255,0,1),
+                0 0 80px rgba(134,255,0,1),
+                0 0 0 8px rgba(134,255,0,.1);
 }
-
-.particle3{
-  animation: 7s rainbowAndMove .5s ease-in-out infinite;
+.particles span:nth-child(3n + 2):before
+{
+    background: rgba(255,214,0,1);
+    box-shadow: 0 0 20px rgba(255,214,0,1),
+                0 0 40px rgba(255,214,0,1),
+                0 0 60px rgba(255,214,0,1),
+                0 0 80px rgba(255,214,0,1),
+                0 0 0 8px rgba(255,214,0,.1);
 }
-
-.particle3:before{
-  content: '';
-  width: 4rem;
-  height: 4rem;
-  position: absolute;
-  top: 990%;
-  left: 890%;
-  border-radius: 50%;
-  background-color: #ff0000;
-  box-shadow: 0 0 4rem #ff0000;
+.particles span:nth-child(3n + 3):before
+{
+    background: rgba(0,226,255,1);
+    box-shadow: 0 0 20px rgba(0,226,255,1),
+                0 0 40px rgba(0,226,255,1),
+                0 0 60px rgba(0,226,255,1),
+                0 0 80px rgba(0,226,255,1),
+                0 0 0 8px rgba(0,226,255,.1);
 }
-
-.particle3:after{
-  content: '';
-  width: 4rem;
-  height: 4rem;
-  position: absolute;
-  top: -990%;
-  left: -890%;
-  border-radius: 50%;
-  background-color: #ff0000;
-  box-shadow: 0 0 4rem #ff0000;
+.particles span:nth-child(3n+1)
+{
+    animation: moving 10s alternate infinite;
 }
-
-.particle4{
-  animation: 4s rainbowAndMove .5s linear infinite;
+.particles span:nth-child(3n+2)
+{
+    animation: reverseMoving 3s alternate infinite;
 }
-
-.particle4:before{
-  content: '';
-  width: 4rem;
-  height: 4rem;
-  position: absolute;
-  top: 190%;
-  left: 690%;
-  border-radius: 50%;
-  background-color: #ff0000;
-  box-shadow: 0 0 4rem #ff0000;
-}
-
-.particle4:after{
-  content: '';
-  width: 4rem;
-  height: 4rem;
-  position: absolute;
-  top: -190%;
-  left: -690%;
-  border-radius: 50%;
-  background-color: #ff0000;
-  box-shadow: 0 0 4rem #ff0000;
+.particles span:nth-child(3n+3)
+{
+    animation: moving 8s alternate infinite;
 }
