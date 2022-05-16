@@ -1,4 +1,45 @@
 body{
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #2e2e2e;
+}
+
+.btn{
+  position: relative;
+  text-transform: uppercase;
+  width: 50%;
+  height: 25%;
+  border: 0.3rem solid #E3E3E3;
+  background-color: transparent;
+  color: #E3E3E3;
+  font-size: 3rem;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.5rem;
+  transition: .5s;
+  overflow: hidden;
+}
+
+.btn:hover{
+  background-color: #00000050;
+}
+
+.btn:before{
+  content: '';
+  position: absolute;
+  background-color: #E3E3E3;
+  transform: translate(-50%, -50%) skewX(45deg);
+  top: 50%;
+  left: -30%;
+  height: 100%;
+  width: 10%;
+  transition: .5s;
+}
+
+.btn:hover:before{
+  left: 130%;
 }
