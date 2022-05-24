@@ -17,7 +17,7 @@ body::-webkit-scrollbar
 body::-webkit-scrollbar-thumb
 {
 	background: #E3E3E3;
-  border-left: .2rem solid blueviolet;
+  border-left: .2rem solid #8400ff;
 }
 
 .return{

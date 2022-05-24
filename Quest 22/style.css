@@ -1,4 +1,28 @@
 body{
   margin: 0;
   padding: 0;
+  height: 100vh;
+  background-color: #E3E3E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.icons{
+  display: flex;
+  gap: 1.5rem;
+}
+
+span svg{
+  height: 50px;
+  width: 50px;
+  border: .1rem solid #2e2e2e;;
+  padding: 1rem;
+  border-radius: 50%;
+  transition: background-color .5s ease;
+}
+
+span svg:hover path{
+  background-color: #2e2e2e;
+  fill: white;
 }
