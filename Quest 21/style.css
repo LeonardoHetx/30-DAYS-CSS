@@ -10,7 +10,7 @@ body{
 
 @keyframes bouncing {
   0%{transform: translateY(10%);}
-  50%{transform: translateY(-300%);}
+  50%{transform: translateY(-400%);}
   100%{transform: translateY(10%);}
 }
 
@@ -18,14 +18,14 @@ div.balls{
   border-bottom: 1rem solid #8400ff;
   display: flex;
   justify-content: center;
-  width: 400px;
+  width: 25rem;
   gap: 20px;
 }
 
 div.balls span{
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 3rem;
+  height: 3rem;
   background-color: #8400ff;
   border-radius: 50%;
   animation: bouncing 1s linear infinite;

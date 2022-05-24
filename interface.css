@@ -11,12 +11,13 @@ html {
 
 body::-webkit-scrollbar
 {
-	width: 10px;
+	width: .8rem;
 }
 
 body::-webkit-scrollbar-thumb
 {
-	background-color: #E3E3E3;
+	background: #E3E3E3;
+  border-left: .2rem solid blueviolet;
 }
 
 .return{
