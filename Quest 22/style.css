@@ -14,36 +14,53 @@ div.icons{
 }
 
 @keyframes hover-icons {
-  to{transform: rotate(360);}
+    100%
+    {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+span{
+ width: 100px;
+ height: 100px;
+ border: .1rem solid hsl(271, 100%, 50%);
+ border-radius: 50%;
+ position: relative;
+}
+
+span:hover::before{
+  content: '';
+  width: 90px;
+  height: 90px;
+  border: .1rem dashed hsl(271, 100%, 50%);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: hover-icons 6s linear infinite;
 }
 
 span svg{
   height: 50px;
   width: 50px;
-  border: .1rem dashed #2e2e2e;;
   padding: 1rem;
   border-radius: 50%;
-  transition: background-color .5s ease;
+  transition: background-color .5s linear;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-span svg:hover{
-  animation: hover-icons 2s linear infinite;
-}
-
-span{
-  content: '';
- width: 100px;
- height: 100px;
- border: 1px solid black;
- border-radius: 50%;
- position: relative;
+span:hover svg{
+  background-color: hsl(271, 100%, 50%);
 }
 
 span svg path{
-  /* background-color: #d400ff; */
-  fill: white;
+  fill: hsl(271, 100%, 50%);
+}
+
+span:hover svg path{
+  fill: hsl(0, 0%, 89%);
 }
