@@ -13,16 +13,37 @@ div.icons{
   gap: 1.5rem;
 }
 
+@keyframes hover-icons {
+  to{transform: rotate(360);}
+}
+
 span svg{
   height: 50px;
   width: 50px;
-  border: .1rem solid #2e2e2e;;
+  border: .1rem dashed #2e2e2e;;
   padding: 1rem;
   border-radius: 50%;
   transition: background-color .5s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-span svg:hover path{
-  background-color: #2e2e2e;
+span svg:hover{
+  animation: hover-icons 2s linear infinite;
+}
+
+span{
+  content: '';
+ width: 100px;
+ height: 100px;
+ border: 1px solid black;
+ border-radius: 50%;
+ position: relative;
+}
+
+span svg path{
+  /* background-color: #d400ff; */
   fill: white;
 }
