@@ -1,38 +1,38 @@
-body{
+body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-color: #E3E3E3;
+  background-color: #e3e3e3;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-div.icons{
+div.icons {
   display: flex;
   gap: 1.5rem;
 }
 
-@keyframes hover-icons {
-    100%
-    {
-        transform: translate(-50%, -50%) rotate(360deg);
-    }
+@keyframes hover-icons { 
+  from {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }
 
-span{
- width: 100px;
- height: 100px;
- border: .1rem solid hsl(271, 100%, 50%);
- border-radius: 50%;
- position: relative;
+span {
+  width: 100px;
+  height: 100px;
+  border: 0.1rem solid hsl(271, 100%, 50%);
+  border-radius: 50%;
+  position: relative;
+  transition: 1s;
 }
 
-span:hover::before{
+span:hover::before {
   content: '';
-  width: 90px;
-  height: 90px;
-  border: .1rem dashed hsl(271, 100%, 50%);
+  width: 100px;
+  height: 100px;
+  border: 0.1rem dashed hsl(271, 100%, 50%);
   border-radius: 50%;
   position: absolute;
   top: 50%;
@@ -41,26 +41,39 @@ span:hover::before{
   animation: hover-icons 6s linear infinite;
 }
 
-span svg{
+span:hover::after {
+  content: '';
+  width: 100px;
+  height: 100px;
+  background-color: hsl(271, 100%, 50%);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  z-index: -1;
+}
+
+span svg {
   height: 50px;
   width: 50px;
   padding: 1rem;
   border-radius: 50%;
-  transition: background-color .5s linear;
+  /* transition: background-color .5s linear; */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-span:hover svg{
+/* span:hover svg{
   background-color: hsl(271, 100%, 50%);
-}
+} */
 
-span svg path{
+span svg path {
   fill: hsl(271, 100%, 50%);
 }
 
-span:hover svg path{
+span:hover svg path {
   fill: hsl(0, 0%, 89%);
 }
