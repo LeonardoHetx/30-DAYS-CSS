@@ -45,10 +45,10 @@ span::before{
 
 span:hover::before {
   content: '';
-  width: 13.5vw;
-  height: 13.5vw;
+  width: 13.2vw;
+  height: 13.2vw;
   opacity: 1;
-  border: 0.15rem dashed hsl(271, 100%, 50%);
+  border: .3vw dashed hsl(271, 100%, 50%);
   border-radius: 50%;
   position: absolute;
   top: 50%;
