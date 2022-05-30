@@ -12,7 +12,7 @@ body{
 .btn{
   position: relative;
   text-transform: uppercase;
-  width: 50%;
+  width: 50vw;
   height: 25%;
   border: 0.3rem solid #E3E3E3;
   background-color: transparent;
