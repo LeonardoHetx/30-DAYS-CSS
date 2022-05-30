@@ -14,7 +14,7 @@ body{
   text-transform: uppercase;
   width: 50vw;
   height: 20vw;
-  border: 0.3rem solid #E3E3E3;
+  border: .3vw solid #E3E3E3;
   background-color: transparent;
   color: #E3E3E3;
   font-size: 5vw;
@@ -25,7 +25,7 @@ body{
 }
 
 .btn:hover{
-  background-color: #00000050;
+  background-color: #0000009a;
 }
 
 .btn:before{
