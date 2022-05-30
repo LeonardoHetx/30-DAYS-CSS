@@ -10,7 +10,7 @@ body {
 
 div.icons {
   display: flex;
-  gap: 1.5rem;
+  gap: 5vw;
 }
 
 @keyframes hover-icons { 
