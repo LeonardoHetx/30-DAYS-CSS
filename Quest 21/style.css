@@ -18,7 +18,7 @@ div.balls{
   border-bottom: 1rem solid #8400ff;
   display: flex;
   justify-content: center;
-  width: 50vw;
+  width: 25rem;
   gap: 20px;
 }
 
