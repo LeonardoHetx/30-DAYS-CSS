@@ -20,8 +20,8 @@ div.icons {
 }
 
 span {
-  width: 7rem;
-  height: 7rem;
+  width: 15vw;
+  height: 15vw;
   border: 0.1rem solid hsl(271, 100%, 50%);
   border-radius: 50%;
   position: relative;
@@ -30,8 +30,8 @@ span {
 
 span::before{
   content: '';
-  width: 7rem;
-  height: 7rem;
+  width: 15vw;
+  height: 15vw;
   opacity: 0;
   border: 0.15rem dashed hsl(271, 100%, 50%);
   border-radius: 50%;
@@ -45,8 +45,8 @@ span::before{
 
 span:hover::before {
   content: '';
-  width: 6.3rem;
-  height: 6.3rem;
+  width: 13.5vw;
+  height: 13.5vw;
   opacity: 1;
   border: 0.15rem dashed hsl(271, 100%, 50%);
   border-radius: 50%;
@@ -59,8 +59,8 @@ span:hover::before {
 
 span::after{
   content: '';
-  width: 9rem;
-  height: 9rem;
+  width: 20vw;
+  height: 20vw;
   opacity: 0;
   background-color: hsl(271, 100%, 50%);
   border-radius: 50%;
@@ -74,8 +74,8 @@ span::after{
 
 span:hover::after {
   content: '';
-  width: 7rem;
-  height: 7rem;
+  width: 15vw;
+  height: 15vw;
   opacity: 1;
   background-color: hsl(271, 100%, 50%);
   border-radius: 50%;
@@ -87,8 +87,8 @@ span:hover::after {
 }
 
 span svg {
-  height: 3rem;
-  width: 3rem;
+  height: 7vw;
+  width: 7vw;
   padding: 1rem;
   border-radius: 50%;
   position: absolute;
