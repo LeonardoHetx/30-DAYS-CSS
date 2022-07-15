@@ -19,7 +19,6 @@ body{
   text-align: center;
   line-height: 20vh;
   transition: .5s;
-  border: solid;
 }
 
 .text:after {
