@@ -4,24 +4,21 @@
 
 ## 🚀 30diasDeCSS 🚀
  
- Fala Devs, beleza? 🖖
+Este é um projeto de 30 dias de CSS. A ideia é criar um novo efeito visual todos os dias, utilizando apenas HTML e CSS. O objetivo é melhorar minhas habilidades em CSS e aprender novas técnicas de design.
 
- 30 dias de CSS3, é um desafio que visa ajudá-lo a melhorar suas habilidades de codificação fazendo mini projetos diarios utilizando HTML5 e CSS3 
+## 📜 Regras gerais
 
- ## Objetivo
+- Cada dia, um novo efeito visual deve ser criado.
+- Apenas HTML e CSS devem ser utilizados.
+- Os efeitos visuais devem ser criados do zero, sem o uso de bibliotecas externas.
+- O projeto deve ser hospedado em um servidor web para que possa ser acessado por todos.
 
-30 dias de CSS3 é um desafio que vou aceitar (e você também pode participar), que visa melhorar minhas habilidades em HTML5 e CSS3 através da realização de projetos 
+## 📕 Como visualizar o projeto?
+Acesse **[clicando aqui](https://leonardohetx.github.io/30-DAYS-CSS/index.html)** ou então desça a página para visualizá-los em .gif
 
-***Se você chegou agora e quer começar o desafio, fique a vontade, o desafio não tem data de inicio fixa, cada um faz os seus 30 dias, eu ficarei honrada com sua participação 😉***
+## 🙋‍ Contribuição
 
-## Regras gerais
-
-* Realizar um projeto por dia
-* Compartilhe seu progresso nas mídias sociais (Twitter, Facebook, Linkedin etc.) usando a hashtag #30diasDeCSS
-* O projeto deve ser concluído até 23:59
-
-Gostou da ideia? 
-[Clique aqui](https://github.com/MilenaCarecho/30diasDeCSS/issues/1) para participar
+Se você quiser contribuir com este projeto, basta fazer um fork do repositório, criar um novo efeito visual e enviar um pull request.
 
 #### Youtube Referencias dos desafios
 [Online Tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog) - 
@@ -205,7 +202,7 @@ Gostou da ideia?
 * *[Transições ](https://www.w3schools.com/css/css3_transitions.asp)*
 
 ##  Desafio dia 13 - Loading com efeito<a name="id13"></a>
-![13](https://user-images.githubusercontent.com/82117002/235510245-fa6bd84b-22b2-4a21-b412-3295a7b470f7.gif
+![13](https://user-images.githubusercontent.com/82117002/235510245-fa6bd84b-22b2-4a21-b412-3295a7b470f7.gif)
 
 
 [Meu codigo](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2013)
@@ -254,7 +251,7 @@ Gostou da ideia?
 * *[Transições ](https://www.w3schools.com/css/css3_transitions.asp)*
 
 ##  Desafio dia 17 - Loader animado<a name="id17"></a>
-![17](https://user-images.githubusercontent.com/82117002/235510261-77406ff1-6b61-4e41-878f-e52f8cbe0da2.gif)
+![17](https://user-images.githubusercontent.com/82117002/235514260-9ca18d23-5782-4c3d-84df-60f8c0c925e2.gif)
 
 
 [Meu código](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2017)
@@ -330,3 +327,9 @@ Gostou da ideia?
 * *[::after](https://www.w3schools.com/cssref/sel_after.asp)*
 * *[:hover](https://www.w3schools.com/cssref/sel_hover.asp)* 
 * *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+
+## 🧾 Licença
+Este projeto está licenciado sob a licença **MIT** - consulte o arquivo **[LICENSE](https://github.com/LeonardoHetx/TIC-TAC-TOE/blob/master/LICENSE)** para obter detalhes.
+
+## 🤝 Créditos
+Agradecimentos à [@MilenaCarecho](https://github.com/MilenaCarecho) pela total inspiração dos desafios, [clique aqui](https://github.com/MilenaCarecho/30diasDeCSS) caso queira ver e participar dos 30diasDeCSS que ela iniciou 
