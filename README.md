@@ -58,3 +58,275 @@ Gostou da ideia?
 * [Dia 28 - Cor do background mudando](#id28)
 * [Dia 29 - Menu responsivo com Media Queries](#id29)
 * [Dia 30 - Fogos de artificio](#id30)
+
+##  Desafio dia 01 - Ícone de mídia social em camadas <a name="id01"></a>
+![Dia 01](https://user-images.githubusercontent.com/82117002/235510174-56993391-a6c0-4ebb-b4b0-d5bc2506ccee.gif)
+
+
+[Meu codigo](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2001)
+
+##### O que eu aprendi
+
+
+* *Criar as camadas utilizando a tag `<span>`*
+* *tranformação 2D ou 3D de um elemento [aqui](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
+* *[Transições CSS](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[Opacidade / transparência do CSS](https://www.w3schools.com/css/css_image_transparency.asp)*
+* *[hover](https://www.w3schools.com/cssref/sel_hover.asp)*
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+
+##  Desafio dia 02 - Loader animado <a name="id02"></a>
+![Dia 02](https://user-images.githubusercontent.com/82117002/235510170-09c983e4-6d36-46f4-a104-a31f4a19e51e.gif)
+
+
+[Meu código](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2002)
+
+##### O que eu aprendi
+
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+
+##  Desafio dia 03 - Mudança de cor de texto quando entra em outra div <a name="id03"></a>
+
+<img src="https://user-images.githubusercontent.com/82117002/235511380-bbd0036b-fbdd-46f1-af44-d617eb3f4978.gif">
+
+
+[Meu código](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2003)
+
+##### Dicas
+
+* *[CSS Overflow](https://www.w3schools.com/css/css_overflow.asp)* 
+* *Use [animations](https://www.w3schools.com/css/css3_animations.asp)*
+
+##  Desafio dia 04 - Botão com efeito <a name="id04"></a>
+![dia 04](https://user-images.githubusercontent.com/82117002/235510197-5bcc09f1-3d35-419b-8b12-742b89416a96.gif)
+
+[Meu codigo](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2004)
+
+##### O que eu aprendi
+
+* *[:hover](https://www.w3schools.com/cssref/sel_hover.asp)* 
+* *[::before](https://www.w3schools.com/cssref/sel_before.asp)*
+* *[::after](https://www.w3schools.com/cssref/sel_after.asp)*
+* *[Transições ](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[transformação](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
+
+##  Desafio dia 05 - Efeito pulsar <a name="id05"></a>
+![dia 05](https://user-images.githubusercontent.com/82117002/235510188-93707479-72bb-4747-9fe7-2fb1f28ed553.gif)
+
+[Meu codigo](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2005)
+
+##### O que eu aprendi
+
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+* *[transformação](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
+
+##  Desafio dia 06 - Efeito lightning text <a name="id06"></a>
+![dia 06](https://user-images.githubusercontent.com/82117002/235510198-b28f916a-84ff-4ee5-b4a4-b521c9995220.gif)
+
+
+[Meu codigo](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2006)
+
+##### O que eu aprendi
+
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+
+##  Desafio dia 07 - Preloader animado <a name="id07"></a>
+![dia 07](https://user-images.githubusercontent.com/82117002/235510206-37d5f1b1-f249-4b31-8d89-db54b4834336.gif)
+
+
+[Meu codigo](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2007)
+
+##### O que eu aprendi
+
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+
+##  Desafio dia 08 - Coração batendo <a name="id08"></a>
+![gif (08)](https://user-images.githubusercontent.com/82117002/235510208-2e1eab7c-1689-4c24-8e25-fb1a07bebdf4.gif)
+
+
+[Meu codigo](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2008)
+
+##### O que eu aprendi
+
+* *[::before](https://www.w3schools.com/cssref/sel_before.asp)*
+* *[::after](https://www.w3schools.com/cssref/sel_after.asp)*
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+
+##  Desafio dia 09 - Pendulo de Newton <a name="id09"></a>
+![gif (09)](https://user-images.githubusercontent.com/82117002/235510209-36fc874c-10d0-4c04-b9a8-1d02ce3824e8.gif)
+
+
+[Meu codigo](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2009)
+
+##### O que eu aprendi
+
+* *[::before](https://www.w3schools.com/cssref/sel_before.asp)*
+* *[::after](https://www.w3schools.com/cssref/sel_after.asp)*
+* *[first-child](https://www.w3schools.com/cssref/sel_firstchild.asp)*
+* *[last-child](https://www.w3schools.com/cssref/sel_last-child.asp)*
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+
+##  Desafio dia 10 - Animação texto alternando <a name="id10"></a>
+![gif (10)](https://user-images.githubusercontent.com/82117002/235510236-4d0c0a9a-2bfa-40b3-98ef-10b137a0c3cc.gif)
+
+
+[Meu codigo](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2010)
+
+##### O que eu aprendi
+
+* *[::before](https://www.w3schools.com/cssref/sel_before.asp)*
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+
+##  Desafio dia 11 - Botão com efeito hover <a name="id11"></a>
+![11](https://user-images.githubusercontent.com/82117002/235510239-26550f15-26ff-4a08-87d8-834f5ba71f12.gif)
+
+
+[Meu codigo](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2011)
+
+##### O que eu aprendi
+
+* *[:hover](https://www.w3schools.com/cssref/sel_hover.asp)* 
+* *[::before](https://www.w3schools.com/cssref/sel_before.asp)*
+* *[Overflow](https://www.w3schools.com/css/css_overflow.asp)* 
+* *[Transições ](https://www.w3schools.com/css/css3_transitions.asp)*
+* *[z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp)*
+
+##  Desafio dia 12 - Efeito de preenchimento ao passar o mouse<a name="id12"></a>
+![gif (12)](https://user-images.githubusercontent.com/82117002/235510241-8bedece9-c32b-4e39-a4dc-1c0209eed9e1.gif)
+
+[Meu codigo](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2012)
+
+##### O que eu aprendi
+
+* *[:hover](https://www.w3schools.com/cssref/sel_hover.asp)* 
+* *[::before](https://www.w3schools.com/cssref/sel_before.asp)*
+* *[Transições ](https://www.w3schools.com/css/css3_transitions.asp)*
+
+##  Desafio dia 13 - Loading com efeito<a name="id13"></a>
+![13](https://user-images.githubusercontent.com/82117002/235510245-fa6bd84b-22b2-4a21-b412-3295a7b470f7.gif
+
+
+[Meu codigo](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2013)
+
+##### O que eu aprendi
+
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+
+##  Desafio dia 14 - Fundo de texto animado<a name="id14"></a>
+![14](https://user-images.githubusercontent.com/82117002/235510248-cfb4e84c-5dc2-438f-bda6-8181278aee1c.gif)
+
+
+
+[Meu codigo](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2014)
+
+##### O que eu aprendi
+
+
+* *[background-clip](https://www.w3schools.com/cssref/css3_pr_background-clip.asp)*
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+
+##  Desafio dia 15 - Texto flutuante<a name="id15"></a>
+![15](https://user-images.githubusercontent.com/82117002/235510254-38ea4010-cbe4-4b2d-bdf0-452345f73905.gif)
+
+
+[Meu codigo](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2015)
+
+##### O que eu aprendi
+
+
+* *[transformação](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+
+##  Desafio dia 16 - Botão com efeito <a name="id16"></a>
+![16](https://user-images.githubusercontent.com/82117002/235510258-e2e906b7-bc05-4700-bfe6-793a2b36fda0.gif)
+
+
+[Meu codigo](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2016)
+
+##### O que eu aprendi
+
+* *[:hover](https://www.w3schools.com/cssref/sel_hover.asp)* 
+* *[::before](https://www.w3schools.com/cssref/sel_before.asp)*
+* *[transformação](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
+* *[Transições ](https://www.w3schools.com/css/css3_transitions.asp)*
+
+##  Desafio dia 17 - Loader animado<a name="id17"></a>
+![17](https://user-images.githubusercontent.com/82117002/235510261-77406ff1-6b61-4e41-878f-e52f8cbe0da2.gif)
+
+
+[Meu código](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2017)
+
+##### O que eu aprendi
+
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+
+##  Desafio dia 18 - Texto esfumaçado<a name="id18"></a>
+![18](https://user-images.githubusercontent.com/82117002/235510216-4a596fa0-1e91-4642-af92-da53712217c0.gif)
+
+
+
+[Meu código](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2018)
+
+##### O que eu aprendi
+
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+* *[transformação](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
+* *[:hover](https://www.w3schools.com/cssref/sel_hover.asp)* 
+
+##  Desafio dia 19 - Efeitos de animação fundo de partículas <a name="id19"></a>
+![19](https://user-images.githubusercontent.com/82117002/235510225-adef8ee3-797f-4ffc-aebd-da1bb82a8427.gif)
+
+
+
+[Meu código](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2019)
+
+##### O que eu aprendi
+
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+* *[transformação](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+* *[variáveis CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties)*
+
+##  Desafio dia 20 - Botão com efeito <a name="id20"></a>
+![20](https://user-images.githubusercontent.com/82117002/235510231-cf752e72-fa14-4b45-b0e1-3d63fc6d4be4.gif)
+
+
+
+[Meu código](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2020)
+
+##### O que eu aprendi
+
+* *[:hover](https://www.w3schools.com/cssref/sel_hover.asp)* 
+* *[::before](https://www.w3schools.com/cssref/sel_before.asp)*
+* *[transformação](https://www.w3schools.com/cssref/css3_pr_transform.asp)*
+* *[Transições ](https://www.w3schools.com/css/css3_transitions.asp)*
+
+##  Desafio dia 21 - Esferas quicando <a name="id21"></a>
+![21](https://user-images.githubusercontent.com/82117002/235510233-03eac96e-411b-4c7d-8845-ec62a4eb3616.gif)
+
+
+[Meu codigo](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2021)
+
+##### O que eu aprendi
+
+
+* *[nth-child ()](https://www.w3schools.com/cssref/sel_nth-child.asp)*
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
+
+##  Desafio dia 22 - Icones com efeito <a name="id22"></a>
+![22](https://user-images.githubusercontent.com/82117002/235510235-8324398b-c702-4f56-be6a-1d2cf10cc913.gif)
+
+
+
+[Meu codigo](https://github.com/LeonardoHetx/30-DAYS-CSS/tree/master/Quest%2022)
+
+##### O que eu aprendi
+
+
+* *[::before](https://www.w3schools.com/cssref/sel_before.asp)*
+* *[::after](https://www.w3schools.com/cssref/sel_after.asp)*
+* *[:hover](https://www.w3schools.com/cssref/sel_hover.asp)* 
+* *[animations](https://www.w3schools.com/css/css3_animations.asp)*
